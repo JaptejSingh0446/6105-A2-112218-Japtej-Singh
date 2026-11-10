@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Urban Bloom Florist</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">Delivery across Central Auckland & selected suburbs</div>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">urban bloom</a>
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flowers.html">Flowers</a></li>
+        <li><a href="weddings.html">Weddings & Events</a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+        <li><a href="delivery.html">Delivery & FAQs</a></li>
+        <li><a href="contact.html" class="active nav-cta">Make an Enquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="section-header">
+      <h2>We'd love to hear from you.</h2>
+      <p>Share a few details and prepare an email enquiry.</p>
+    </div>
+
+    <div class="contact-container">
+      <div>
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> hello@urbanbloom.kiwi</p>
+        <p><strong>Phone:</strong> 09 000 0001</p>
+        <br>
+        <h3>Opening Hours</h3>
+        <p>Monday - Friday: 8:30 am - 5:30 pm</p>
+        <p>Saturday: 9:00 am - 3:00 pm</p>
+        <p>Sunday: Closed</p>
+      </div>
+
+      <form id="enquiry-form">
+        <div class="form-group">
+          <label for="fullname">Full name *</label>
+          <input type="text" id="fullname" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address *</label>
+          <input type="email" id="email" placeholder="you@example.com">
+        </div>
+        <div class="form-group">
+          <label for="service">What can we help with? *</label>
+          <select id="service">
+            <option value="">Select an option</option>
+            <option value="Everyday Flowers">Everyday Flowers</option>
+            <option value="Wedding / Event">Wedding / Event</option>
+            <option value="Corporate Floral">Corporate Floral</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us more *</label>
+          <textarea id="message" rows="5" placeholder="Occasion, date, location, or preferred flowers..."></textarea>
+        </div>
+        <button type="submit" class="btn" style="width:100%;">Prepare Email Enquiry</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-bottom">&copy; 2026 Urban Bloom Florist. Auckland, New Zealand.</div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
